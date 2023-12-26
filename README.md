@@ -18,7 +18,7 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 ## Características
 
 - **Interfaz:** Diseño sencillo y minimalista.
-- **Animación de los iconos:** Sliding Hover Effect.
+- **Animación de los iconos:** Sliding Hover Effects diferentes
 
 ## Tecnologías Utilizadas
 
@@ -36,9 +36,15 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar los iconos existentes, como agregar más contenido o mejorar el diseño, no dudes en enviar tus pull requests. También puedes sugerir nuevas funcionalidades o brindar retroalimentación para hacer que este proyecto sea aún mejor.
 
+## Derechos Reservados
+
+Todos los derechos están reservados para la marca Meta. Este proyecto es una iniciativa educativa destinada a ampliar mis conocimientos en el desarrollo web. La elección de la marca Meta como tema se debe al profundo respeto que tengo por ella.
+
 ## Propósito del Proyecto
 
-Este proyecto tiene como objetivo principal el aprendizaje de tecnologías para mejorar en el plano del desarrollo web.
+Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnologías clave para el desarrollo web. La temática, centrada en los iconos de las plataformas de Meta, rinde homenaje a la marca. Es fundamental destacar que los logos utilizados son propiedad de Meta, y sus derechos no me pertenecen. Se emplean exclusivamente con fines educativos e investigativos, con la intención de mejorar mis habilidades como programadora.
+
+**Aviso Importante:** Este proyecto no tiene ninguna afiliación oficial con Meta, y su único propósito es el desarrollo personal y educativo.
 
 ## Recursos Utilizados
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
