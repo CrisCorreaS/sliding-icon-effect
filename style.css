@@ -17,10 +17,10 @@
   padding: 0;
 }
 
-body{
-    height: 100vh;
-    background: url(/img/bg-img1.jpg) no-repeat;
-    background-size: cover;
+body {
+  height: 100vh;
+  background: url(/img/bg-img1.jpg) no-repeat;
+  background-size: cover;
 }
 
 .group1 {
@@ -254,7 +254,127 @@ body{
 .group3 a:nth-child(5) i {
   color: var(--messenger-color);
 }
+/*  */
+.group4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10%;
+  left: 27%;
+}
 
+.group4 .group4_button {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button span {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  display: block;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.group4 .group4_button span i {
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.group4 .group4_button:hover span {
+  color: white;
+}
+
+.group4 .group4_button .tooltip {
+  position: relative;
+  top: 0px;
+  background-color: white;
+  color: white;
+  font-size: 15px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button:hover .tooltip {
+  top: -15px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.group4 .group4_button .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button:hover span,
+.group4 .group4_button:hover .tooltip {
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.group4 .group4_button:nth-child(1):hover .tooltip,
+.group4 .group4_button:nth-child(1):hover .tooltip::before {
+  background: var(--instagram-color);
+}
+
+.group4 .group4_button:nth-child(1):hover span {
+  background-image: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.group4 .group4_button:nth-child(2):hover span,
+.group4 .group4_button:nth-child(2):hover .tooltip,
+.group4 .group4_button:nth-child(2):hover .tooltip::before {
+  background: var(--whatsapp-color);
+}
+
+.group4 .group4_button:nth-child(3):hover span,
+.group4 .group4_button:nth-child(3):hover .tooltip,
+.group4 .group4_button:nth-child(3):hover .tooltip::before {
+  background: var(--threads-color);
+}
+
+.group4 .group4_button:nth-child(4):hover span,
+.group4 .group4_button:nth-child(4):hover .tooltip,
+.group4 .group4_button:nth-child(4):hover .tooltip::before {
+  background: var(--facebook-color);
+}
+
+.group4 .group4_button:nth-child(5):hover span,
+.group4 .group4_button:nth-child(5):hover .tooltip,
+.group4 .group4_button:nth-child(5):hover .tooltip::before {
+  background: var(--messenger-color);
+}
+
+/*  */
 footer {
   position: fixed;
   left: 0px;
