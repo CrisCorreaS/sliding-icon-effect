@@ -1,0 +1,401 @@
+:root {
+  --instagram-color: #d62976;
+  --whatsapp-color: #00fb60;
+  --threads-color: black;
+  --facebook-color: #1877f2;
+  --messenger-color: #ff4872;
+  --instagram-color-clear: #e370a3;
+  --whatsapp-color-clear: #52ff94;
+  --threads-color-clear: #545454;
+  --facebook-color-clear: #64a4f6;
+  --messenger-color-clear: #ff84a0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: url(/img/bg-img1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.group1 {
+  position: fixed;
+  top: 17%;
+  left: 10px;
+}
+
+.group1_button {
+  width: 18px;
+  height: 55px;
+  padding: 0 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transform: translateX(-20%);
+  transition: all 0.5s ease;
+  margin-bottom: 10px;
+}
+
+.group1_button p {
+  display: none;
+}
+
+.group1_button:hover > p {
+  display: block;
+}
+
+.group1_button:hover {
+  color: white;
+  width: 80%;
+  padding-left: 20px;
+  transform: translateX(0%);
+}
+
+.group1_button:nth-child(1):hover {
+  background-color: transparent;
+  background-image: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.group1_button:nth-child(2):hover {
+  background-color: var(--whatsapp-color);
+}
+
+.group1_button:nth-child(3):hover {
+  background-color: var(--threads-color);
+}
+
+.group1_button:nth-child(4):hover {
+  background-color: var(--facebook-color);
+}
+
+.group1_button:nth-child(5):hover {
+  background-color: var(--messenger-color);
+}
+
+.group2 {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.group2 ul {
+  list-style: none;
+}
+
+.group2 ul li {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.group2 ul li .fa-brands {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.group2 ul li:nth-child(1) {
+  background: var(--instagram-color);
+}
+
+.group2 ul li:nth-child(2) {
+  background: var(--whatsapp-color);
+}
+
+.group2 ul li:nth-child(3) {
+  background: var(--threads-color);
+}
+
+.group2 ul li:nth-child(4) {
+  background: var(--facebook-color);
+}
+
+.group2 ul li:nth-child(5) {
+  background: var(--messenger-color);
+}
+
+.group2 ul li.group2_button:nth-child(1) div.slider {
+  background: var(--instagram-color-clear);
+}
+
+.group2 ul li.group2_button:nth-child(2) div.slider {
+  background: var(--whatsapp-color-clear);
+}
+
+.group2 ul li.group2_button:nth-child(3) div.slider {
+  background: var(--threads-color-clear);
+}
+
+.group2 ul li.group2_button:nth-child(4) div.slider {
+  background: var(--facebook-color-clear);
+}
+
+.group2 ul li.group2_button:nth-child(5) div.slider {
+  background: var(--messenger-color-clear);
+}
+
+.group2 .slider {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 48px;
+  width: 0px;
+  height: 55px;
+  background: #eebb5c;
+  border-radius: 0px 10px 10px 0px;
+  transition: all 0.3s 0.2s ease;
+  z-index: -1;
+}
+
+.group2 .slider p {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.group2 ul li:hover .slider {
+  width: 150px;
+  transition: all 0.3s ease;
+}
+
+.group2 ul li:hover .slider p {
+  opacity: 1;
+  transition: all 0.6s 0.2s ease;
+}
+
+.group3 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 16%;
+  right: 30px;
+  transform: translate(320px, 0);
+}
+
+.group3 a {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin: 5px;
+  padding: 14px;
+  width: 300px;
+  text-align: left;
+  border-radius: 50px;
+  transition: 1s;
+  transition-property: transform;
+}
+
+.group3 a:hover {
+  transform: translateX(-140px);
+}
+
+.group3 i {
+  margin: 0px 20px 0px 5px;
+}
+
+.group3 a:nth-child(1) i {
+  color: transparent;
+  background-image: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  -webkit-background-clip: text;
+}
+
+.group3 a:nth-child(2) i {
+  color: var(--whatsapp-color);
+}
+
+.group3 a:nth-child(3) i {
+  color: var(--threads-color);
+}
+
+.group3 a:nth-child(4) i {
+  color: var(--facebook-color);
+}
+
+.group3 a:nth-child(5) i {
+  color: var(--messenger-color);
+}
+/*  */
+.group4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10%;
+  left: 27%;
+}
+
+.group4 .group4_button {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button span {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  display: block;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.group4 .group4_button span i {
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.group4 .group4_button:hover span {
+  color: white;
+}
+
+.group4 .group4_button .tooltip {
+  position: relative;
+  top: 0px;
+  background-color: white;
+  color: white;
+  font-size: 15px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button:hover .tooltip {
+  top: -15px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.group4 .group4_button .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.group4 .group4_button:hover span,
+.group4 .group4_button:hover .tooltip {
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.group4 .group4_button:nth-child(1):hover .tooltip,
+.group4 .group4_button:nth-child(1):hover .tooltip::before {
+  background: var(--instagram-color);
+}
+
+.group4 .group4_button:nth-child(1):hover span {
+  background-image: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.group4 .group4_button:nth-child(2):hover span,
+.group4 .group4_button:nth-child(2):hover .tooltip,
+.group4 .group4_button:nth-child(2):hover .tooltip::before {
+  background: var(--whatsapp-color);
+}
+
+.group4 .group4_button:nth-child(3):hover span,
+.group4 .group4_button:nth-child(3):hover .tooltip,
+.group4 .group4_button:nth-child(3):hover .tooltip::before {
+  background: var(--threads-color);
+}
+
+.group4 .group4_button:nth-child(4):hover span,
+.group4 .group4_button:nth-child(4):hover .tooltip,
+.group4 .group4_button:nth-child(4):hover .tooltip::before {
+  background: var(--facebook-color);
+}
+
+.group4 .group4_button:nth-child(5):hover span,
+.group4 .group4_button:nth-child(5):hover .tooltip,
+.group4 .group4_button:nth-child(5):hover .tooltip::before {
+  background: var(--messenger-color);
+}
+
+/*  */
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid silver;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  padding: 5px 0px 8px;
+}
+
+small {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+small > a {
+  color: white;
+  font-size: 12px;
+}
