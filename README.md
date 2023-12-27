@@ -13,7 +13,17 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 ![Vista previa de los iconos con Sliding Hover Effect](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/img/visualizaci%C3%B3n/iconos-vista.png)
 
 #### Vista de las funcionalidades:
-![Vista previa del comportamiento de los iconos](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/video/features.gif)
+##### Funcionalidad 1:
+![Vista previa del comportamiento de los primeros iconos](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/video/feature1.gif)
+
+##### Funcionalidad 2:
+![Vista previa del comportamiento de los segundos iconos](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/video/feature2.gif)
+
+##### Funcionalidad 3:
+![Vista previa del comportamiento de los terceros iconos](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/video/feature3.gif)
+
+##### Funcionalidad 4:
+![Vista previa del comportamiento de los cuartos iconos](https://github.com/CrisCorreaS/sliding-icon-effect/blob/main/video/feature4.gif)
 
 ## Características
 
@@ -51,6 +61,7 @@ A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
 - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
 - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
 - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
 - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 
