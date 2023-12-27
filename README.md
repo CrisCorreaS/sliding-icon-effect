@@ -50,6 +50,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
 - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
+- [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
 - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 
