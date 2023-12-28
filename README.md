@@ -61,12 +61,14 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 
 ## 👌 Recursos Utilizados
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
-- [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
-- [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
-- [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-- [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
-- [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
-- [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
+- CSS:
+  - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
+  - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
+  - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+  - [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
+- Font Awesome
+  - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
+  - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
