@@ -30,8 +30,8 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 
 ## 🌱 Características
 
-- **Interfaz:** Diseño sencillo y minimalista.
-- **Animación de los iconos:** Sliding Hover Effects diferentes
+- **Interfaz:** Diseño minimalista con iconos vibrantes.s.
+- **Animación de los iconos:** Emplea diversos efectos "Sliding Hover" para una experiencia visual única. Cada grupo de iconos tienen el mismo tipo de animación.
 
 ## 🛠️ Tecnologías Utilizadas
 
