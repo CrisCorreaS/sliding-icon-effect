@@ -38,6 +38,22 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 - HTML
 - CSS
 
+## 🔎💡 Información
+> [!IMPORTANT]
+> - Este es un proyecto para principiantes. No se requieren conocimientos avanzados de HTML o CSS.
+> - **Nivel de dificultad del proyecto:** 🔴⭕⭕⭕⭕⭕⭕⭕⭕⭕ (1 sobre 10)
+
+> [!TIP]
+> A la hora de desarrollar el proyecto, te pueden venir bien los siguientes recursos:
+> - CSS:
+>    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
+>    - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
+>    - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+>    - [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
+> - Font Awesome
+>    - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
+>    - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
+
 ## 📓Cómo Usar
 
 1. Descarga o clona este repositorio en tu máquina local.
@@ -49,26 +65,14 @@ Estos iconos con Sliding Hover Effect han sido creados por **[Cristina Correa](h
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar los iconos existentes, como agregar más contenido o mejorar el diseño, no dudes en enviar tus pull requests. También puedes sugerir nuevas funcionalidades o brindar retroalimentación para hacer que este proyecto sea aún mejor.
 
-## ❗ Derechos Reservados
-
-Todos los derechos están reservados para la marca Meta. Este proyecto es una iniciativa educativa destinada a ampliar mis conocimientos en el desarrollo web. La elección de la marca Meta como tema se debe al profundo respeto que tengo por ella.
-
 ## 🎯 Propósito del Proyecto
 
 Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnologías clave para el desarrollo web. La temática, centrada en los iconos de las plataformas de Meta, rinde homenaje a la marca. Es fundamental destacar que los logos utilizados son propiedad de Meta, y sus derechos no me pertenecen. Se emplean exclusivamente con fines educativos e investigativos, con la intención de mejorar mis habilidades como programadora.
 
-**Aviso Importante:** Este proyecto no tiene ninguna afiliación oficial con Meta, y su único propósito es el desarrollo personal y educativo.
+## ❗ Derechos Reservados
 
-## 👌 Recursos Utilizados
-A la hora de hacer este proyecto he utilizado los siguientes recursos:
-- CSS:
-  - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
-  - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
-  - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-  - [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
-- Font Awesome
-  - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
-  - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
+Todos los derechos están reservados para la marca Meta. Este proyecto es una iniciativa educativa destinada a ampliar mis conocimientos en el desarrollo web. La elección de la marca Meta como tema se debe al profundo respeto que tengo por ella.
+**Aviso Importante:** Este proyecto no tiene ninguna afiliación oficial con Meta, y su único propósito es el desarrollo personal y educativo.
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
